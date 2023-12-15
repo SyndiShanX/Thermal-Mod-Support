@@ -1,0 +1,297 @@
+{
+  "_comment": "§f========================================================================================================",
+  "_comment": "§fThermal Core",
+  "_comment": "§f========================================================================================================",
+	
+  "info.thermal.catalysts": "§fCatalysts",
+  "info.thermal.energy_mod": "§fEnergy Modifier",
+  "info.thermal.primary_mod": "§fPrimary Modifier",
+  "info.thermal.secondary_mod": "§fAuxiliary Modifier",
+  "info.thermal.use_chance": "§fUse Chance",
+
+  "info.thermal.detonator.mode.0": "§fMode: Prime",
+  "info.thermal.detonator.mode.1": "§fMode: Detonate",
+  "info.thermal.detonator.primed": "§fPrimed:",
+  "info.thermal.detonator.use.0": "§fUse on a TNT Block to prime it for detonation.",
+  "info.thermal.detonator.use.1": "§fUse to detonate primed TNT.",
+  "info.thermal.detonator.use.sneak": "§fUse while sneaking to clear.",
+
+  "info.thermal.lock.use": "§fUse on a compatible block to secure it.",
+  "info.thermal.lock.use.sneak": "§fUse while sneaking to secure a compatible item held in the offhand.",
+
+  "info.thermal.redprint.contents": "§fContents:",
+  "info.thermal.redprint.unknown": "§fUnknown Data",
+  "info.thermal.redprint.data.RSControl": "§fRedstone Control",
+  "info.thermal.redprint.data.Sides": "§fSide Configuration",
+  "info.thermal.redprint.data.Xfer": "§fTransfer Control",
+  "info.thermal.redprint.use": "§fUse on a block to copy its settings.",
+  "info.thermal.redprint.use.contents": "§fUse on a block to apply settings.",
+  "info.thermal.redprint.use.sneak": "§fUse while sneaking to clear.",
+
+  "info.thermal.satchel.0": "§fStores and collects items. Can be secured.",
+  "info.thermal.satchel.1": "§fIf a filter is installed, use while sneaking to configure.",
+  "info.thermal.satchel.2": "§fFilter settings apply only to auto-store.",
+  "info.thermal.satchel.mode.0": "§fAuto-Store Disabled",
+  "info.thermal.satchel.mode.1": "§fAuto-Store Enabled",
+  "info.thermal.satchel.use": "§fUse to open the satchel.",
+  "info.thermal.satchel.use.sneak": "§fUse while sneaking to configure.",
+
+  "info.thermal.wrench.mode.0": "§fEngineer Vision Disabled",
+  "info.thermal.wrench.mode.1": "§fEngineer Vision Enabled",
+
+  "info.thermal.xp_crystal.mode.0": "§fAuto-Collect Disabled",
+  "info.thermal.xp_crystal.mode.1": "§fAuto-Collect Enabled",
+  "info.thermal.xp_crystal.use": "§fUse to transfer experience to the crystal.",
+  "info.thermal.xp_crystal.use.sneak": "§fUse while sneaking to retrieve stored experience.",
+
+  "_comment": "§f========================================================================================================",
+  "_comment": "§fThermal Core - Augments",
+  "_comment": "§f========================================================================================================",
+
+  "info.thermal.augment.attr.Depth": "§fMaximum Depth",
+  "info.thermal.augment.attr.Radius": "§fMaximum Radius",
+  "info.thermal.augment.attr.Reach": "§fMaximum Reach",
+
+  "info.thermal.augment.attr.BaseMod": "§fScale Factor",
+
+  "info.thermal.augment.attr.DynamoEnergy": "§fFuel Energy",
+  "info.thermal.augment.attr.DynamoPower": "§fMaximum Output",
+
+  "info.thermal.augment.attr.FluidMax": "§fTank Capacity",
+
+  "info.thermal.augment.attr.MachineCat": "§fCatalyst Usage",
+  "info.thermal.augment.attr.MachineEnergy": "§fProcess Energy",
+  "info.thermal.augment.attr.MachinePri": "§fPrimary Product",
+  "info.thermal.augment.attr.MachinePower": "§fBase Power",
+  "info.thermal.augment.attr.MachineSec": "§fSecondary Product",
+  "info.thermal.augment.attr.MachineSpeed": "§fMaximum Power",
+  "info.thermal.augment.attr.MachineXp": "§fXP Modifier",
+
+  "info.thermal.augment.attr.PotionAmp": "§fEffect Level",
+  "info.thermal.augment.attr.PotionDur": "§fEffect Duration",
+
+  "info.thermal.augment.attr.RFMax": "§fRF Capacity",
+  "info.thermal.augment.attr.RFXfer": "§fRF Transfer",
+
+  "info.thermal.augment.type.Area": "§fArea Effect",
+  "info.thermal.augment.type.Dynamo": "§fDynamo",
+  "info.thermal.augment.type.Fluid": "§fFluid",
+  "info.thermal.augment.type.Filter": "§fFilter",
+  "info.thermal.augment.type.Machine": "§fMachine",
+  "info.thermal.augment.type.Potion": "§fPotion",
+  "info.thermal.augment.type.RF": "§fRedstone Flux",
+  "info.thermal.augment.type.Upgrade": "§fUpgrade",
+
+  "info.thermal.augment.maximized": "§fDoes not stack; highest value used.",
+
+  "_comment": "§f========================================================================================================",
+  "_comment": "§fThermal Core - External",
+  "_comment": "§fThese 'live' in Thermal Core but are non-default and registered from multiple possible modules.",
+  "_comment": "§f========================================================================================================",
+
+  "info.thermal.device_composter.0": "§fProduces compost from organic waste.",
+  "info.thermal.device_composter.1": "§fItems have varying effectiveness.",
+  "info.thermal.device_composter.2": "§fGive back to nature.",
+
+  "info.thermal.device_collector.0": "§fPicks up things from the nearby area.",
+  "info.thermal.device_collector.1": "§fFilter configuration will apply to this behavior.",
+  "info.thermal.device_collector.2": "§fKeep those floors clean!",
+
+  "info.thermal.device_fisher.0": "§fCaptures assorted aquatic life. Use bait to boost production and adjust what is caught.",
+  "info.thermal.device_fisher.1": "§fMust be placed in a body of water.",
+  "info.thermal.device_fisher.2": "§fHang up your fishing rod.",
+
+  "info.thermal.device_hive_extractor.0": "§fCarefully extracts products from beehives.",
+  "info.thermal.device_hive_extractor.1": "§fGood for bees and keepers alike!",
+  "info.thermal.device_hive_extractor.2": "§fBuzz buzz.",
+
+  "info.thermal.device_nullifier.0": "§fDestroys anything placed into it.",
+  "info.thermal.device_nullifier.1": "§fItems and fluid inserted with automation are destroyed instantly.",
+  "info.thermal.device_nullifier.2": "§fItems inserted manually must be destroyed with the button.",
+  "info.thermal.device_nullifier.3": "§fA filter can be used to restrict what is accepted.",
+
+  "info.thermal.device_nullifier_empty_bin": "§fDestroy Items",
+
+  "info.thermal.device_potion_diffuser.0": "§fSpreads potions within the nearby area.",
+  "info.thermal.device_potion_diffuser.1": "§fUse reagents to boost effectiveness.",
+  "info.thermal.device_potion_diffuser.2": "§fBreathe deep.",
+
+  "info.thermal.device_rock_gen.0": "§fGenerates various types of stone.",
+  "info.thermal.device_rock_gen.1": "§fRequires an adjacent lava source and cooling.",
+  "info.thermal.device_rock_gen.2": "§fThe block beneath may also affect the product.",
+
+  "info.thermal.device_soil_infuser.0": "§fInfuses nearby Phyto-Soil with Redstone Flux.",
+  "info.thermal.device_soil_infuser.1": "§fAffects one layer above and below.",
+  "info.thermal.device_soil_infuser.2": "§fSafe for crops, really!",
+
+  "info.thermal.device_tree_extractor.0": "§fExtracts fluids from adjacent trees.",
+  "info.thermal.device_tree_extractor.1": "§fUse fertilizer to boost production.",
+  "info.thermal.device_tree_extractor.2": "§fPut down the axe.",
+
+  "info.thermal.device_water_gen.0": "§fProvides copious amounts of water.",
+  "info.thermal.device_water_gen.1": "§fRequires adjacent water sources to function.",
+  "info.thermal.device_water_gen.2": "§fDon't drown.",
+
+  "info.thermal.energy_cell.0": "§fStores and transfers Redstone Flux.",
+  "info.thermal.energy_cell.1": "§fHold §e§oShift§r§f and/or §e§oCtrl§r§f to fine tune amounts.",
+
+  "info.thermal.fluid_cell.0": "§fStores and transfers Fluids.",
+  "info.thermal.fluid_cell.1": "§fHold §e§oShift§r§f and/or §e§oCtrl§r§f to fine tune amounts.",
+
+  "info.thermal.item_cell.0": "§fStores and transfers Items.",
+  "info.thermal.item_cell.1": "§fHold §e§oShift§r§f and/or §e§oCtrl§r§f to fine tune amounts.",
+
+  "info.thermal.charge_bench.0": "§fCharges items with Redstone Flux.",
+  "info.thermal.charge_bench.1": "§fItems can be inserted and removed with automation.",
+  "info.thermal.charge_bench.2": "§fFeel the hum.",
+
+  "info.thermal.tinker_bench.0": "§fMultipurpose table for augmenting, recharging, and refilling.",
+  "info.thermal.tinker_bench.1": "§fStorages may be filled using their respective slots.",
+  "info.thermal.tinker_bench.2": "§fTinker on!",
+
+  "info.thermal.tinker_bench_mode_augment": "§fMode: Augment",
+  "info.thermal.tinker_bench_mode_charge": "§fMode: Charge/Fill",
+
+  "info.thermal.beekeeper_armor": "§fProtects from stings.",
+
+  "info.thermal.diving_helmet": "§fGreatly increases air supply.",
+
+  "info.thermal.hazmat_armor": "§fProtects from various hazards.",
+  "info.thermal.hazmat_helmet": "§fIncreases air supply.",
+  "info.thermal.hazmat_boots": "§fReduces fall damage.",
+
+  "_comment": "§f========================================================================================================",
+  "_comment": "§fThermal Dynamics",
+  "_comment": "§f========================================================================================================",
+
+  "info.thermal.item_buffer.0": "§fRestricts quantity and flow of items.",
+  "info.thermal.item_buffer.1": "§fSet desired items and quantities using the left grid.",
+  "info.thermal.item_buffer.2": "§fLatch I/O requires all items to be present before extraction is allowed.",
+  "info.thermal.item_buffer.3": "§fVery useful for maintaining specific item ratios.",
+
+  "info.thermal.item_buffer.mode.0": "§fI/O: Normal",
+  "info.thermal.item_buffer.mode.1": "§fI/O: Latch",
+
+  "_comment": "§f========================================================================================================",
+  "_comment": "§fThermal Expansion",
+  "_comment": "§f========================================================================================================",
+
+  "info.thermal.device_fluid_buffer.0": "§fStores and transfers fluids. Can automatically extract.",
+  "info.thermal.device_fluid_buffer.1": "§fIt's like a hopper, for fluids!",
+  "info.thermal.device_fluid_buffer.2": "§fHold §e§oShift§r§f and/or §e§oCtrl§r§f to fine tune amounts.",
+
+  "info.thermal.device_item_buffer.0": "§fStores and transfers items. Can automatically extract.",
+  "info.thermal.device_item_buffer.1": "§fBetter than a Hopper, really!",
+  "info.thermal.device_item_buffer.2": "§fHold §e§oShift§r§f and/or §e§oCtrl§r§f to fine tune amounts.",
+
+  "info.thermal.dynamo.throttle": "§fOutput rate throttles based on local feedback.",
+
+  "info.thermal.dynamo_compression.0": "§fGenerates Redstone Flux using combustible fluids.",
+
+  "info.thermal.dynamo_disenchantment.0": "§fGenerates Redstone Flux using enchanted items.",
+  "info.thermal.dynamo_disenchantment.1": "§fThe item is destroyed along with the enchantment. That's why it works.",
+
+  "info.thermal.dynamo_gourmand.0": "§fGenerates Redstone Flux using food!",
+  "info.thermal.dynamo_gourmand.1": "§fWho knows what sort of beast you may be feeding.",
+  "info.thermal.dynamo_gourmand.2": "§fIt's calorific!",
+
+  "info.thermal.dynamo_lapidary.0": "§fGenerates Redstone Flux using gems!",
+  "info.thermal.dynamo_lapidary.1": "§fProbably a portal to an alternate dimension of sparkle-obsessed goblins.",
+  "info.thermal.dynamo_lapidary.2": "§fGems are really just pretty rocks anyways.",
+
+  "info.thermal.dynamo_magmatic.0": "§fGenerates Redstone Flux using extremely hot fluids.",
+  "info.thermal.dynamo_magmatic.1": "§fFluids dissipate into nothingness as a result of this process.",
+
+  "info.thermal.dynamo_numismatic.0": "§fGenerates Redstone Flux using economic arbitrage.",
+  "info.thermal.dynamo_numismatic.1": "§fMight be a portal to an alternate dimension of pure avarice.",
+  "info.thermal.dynamo_numismatic.2": "§fDon't overthink it, just insert coins.",
+
+  "info.thermal.dynamo_stirling.0": "§fGenerates Redstone Flux using solid fuels.",
+  "info.thermal.dynamo_stirling.1": "§fMost things that work in a Furnace work here too.",
+
+  "info.thermal.machine_bottler.0": "§fFills containers with fluids.",
+  "info.thermal.machine_bottler.1": "§fThis is required to consume certain beverages.",
+  "info.thermal.machine_bottler.2": "§fRefreshing!",
+
+  "info.thermal.machine_brewer.0": "§fBrews potions and imbues fluids.",
+  "info.thermal.machine_brewer.1": "§fYou might want a few of these in a row.",
+  "info.thermal.machine_brewer.2": "§fBottles not included.",
+
+  "info.thermal.machine_centrifuge.0": "§fSeparates items into their components.",
+  "info.thermal.machine_centrifuge.1": "§fSome items will process into a fluid component.",
+  "info.thermal.machine_centrifuge.2": "§fSpin to win!",
+
+  "info.thermal.machine_chiller.0": "§fRapidly freezes items and fluids.",
+  "info.thermal.machine_chiller.1": "§fCan use a forming cast with fluids to determine the output.",
+  "info.thermal.machine_chiller.2": "§fBrrr!",
+
+  "info.thermal.machine_crafter.0": "§fInsert items into the grid to set a crafting recipe.",
+  "info.thermal.machine_crafter.1": "§fSimply press the confirm button and walk away!",
+  "info.thermal.machine_crafter.2": "§fNot all recipes are valid.",
+
+  "info.thermal.machine_crucible.0": "§fTurns solid materials into fluids, at high heat.",
+  "info.thermal.machine_crucible.1": "§fVery useful for creating advanced blocks.",
+  "info.thermal.machine_crucible.2": "§fKeep away from small children and pets.",
+
+  "info.thermal.machine_crystallizer.0": "§fGrows and reforms crystalline structures.",
+  "info.thermal.machine_crystallizer.1": "§fRequires a fluid and at least one item.",
+  "info.thermal.machine_crystallizer.2": "§fShine on, you crazy diamond.",
+
+  "info.thermal.machine_furnace.0": "§fSmelts things using Redstone Flux.",
+  "info.thermal.machine_furnace.1": "§fUses very little energy to cook food.",
+  "info.thermal.machine_furnace.2": "§fOm nom nom.",
+
+  "info.thermal.machine_insolator.0": "§fInfuses nutrients and light into plants using Redstone Flux.",
+  "info.thermal.machine_insolator.1": "§fNot exactly 'organic' farming.",
+  "info.thermal.machine_insolator.2": "§fGloriously incandescent!",
+
+  "info.thermal.machine_press.0": "§fSqueezes and deforms items.",
+  "info.thermal.machine_press.1": "§fCan use a manufacturing die to determine the output.",
+  "info.thermal.machine_press.2": "§fVersatile and satisfying!",
+
+  "info.thermal.machine_pulverizer.0": "§fSmashes things into more broken things.",
+  "info.thermal.machine_pulverizer.1": "§fUseful for processing ores or converting items.",
+  "info.thermal.machine_pulverizer.2": "§fThis is typically not reversible.",
+
+  "info.thermal.machine_pyrolyzer.0": "§fDecomposes solids via high temperatures.",
+  "info.thermal.machine_pyrolyzer.1": "§fVery useful in fuel purification.",
+  "info.thermal.machine_pyrolyzer.2": "§fNo touchy.",
+
+  "info.thermal.machine_refinery.0": "§fRefines various fluids into other products.",
+  "info.thermal.machine_refinery.1": "§fSome fluids will leave behind a solid component.",
+  "info.thermal.machine_refinery.2": "§fProducts may or may not be drinkable.",
+
+  "info.thermal.machine_sawmill.0": "§fCuts logs into planks and reprocesses wooden objects.",
+  "info.thermal.machine_sawmill.1": "§fVery useful for making the most out of a tree.",
+  "info.thermal.machine_sawmill.2": "§fWatch your hands.",
+
+  "info.thermal.machine_smelter.0": "§fSmelts metals and things that require high temperatures.",
+  "info.thermal.machine_smelter.1": "§fUseful for processing ores and creating advanced blocks.",
+  "info.thermal.machine_smelter.2": "§fWill absolutely not cook food.",
+
+  "_comment": "§f========================================================================================================",
+  "_comment": "§fThermal Innovation",
+  "_comment": "§f========================================================================================================",
+
+  "info.thermal.capacitor.mode.0": "§fMode: Equipment",
+  "info.thermal.capacitor.mode.1": "§fMode: Inventory",
+  "info.thermal.capacitor.mode.2": "§fMode: All Items",
+
+  "info.thermal.magnet.mode.0": "§fAuto-Attract Disabled",
+  "info.thermal.magnet.mode.1": "§fAuto-Attract Enabled",
+  "info.thermal.magnet.use": "§fUse to attract items at the target location.",
+  "info.thermal.magnet.use.sneak": "§fUse while sneaking to configure.",
+
+  "info.thermal.infuser.mode.0": "§fAuto-Infuse Disabled",
+  "info.thermal.infuser.mode.1": "§fAuto-Infuse Enabled",
+  "info.thermal.infuser.use": "§fUse on a mob to infuse it.",
+  "info.thermal.infuser.use.sneak": "§fUse while sneaking to infuse yourself.",
+
+  "info.thermal.reservoir.mode.0": "§fMode: Fill",
+  "info.thermal.reservoir.mode.1": "§fMode: Empty",
+
+  "info.thermal.quiver.mode.0": "§fImbuing Disabled",
+  "info.thermal.quiver.mode.1": "§fImbuing Enabled",
+  "info.thermal.quiver.use": "§fUse to place arrows into the quiver.",
+  "info.thermal.quiver.use.sneak": "§fUse while sneaking to remove arrows."
+}
